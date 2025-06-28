@@ -1,0 +1,95 @@
+🎤 Pitch Script: Quotable — AI for Smarter International Funnels
+(Timer: ~0:00–0:30)
+Hi everyone, I’m [Your Name], and this is Quotable — your AI-powered engine for smarter international marketing.
+We help businesses break into new markets, generate high-quality leads, and optimize outbound campaigns — not just by analyzing what happened, but by prescribing exactly what to do next.
+
+(Timer: ~0:30–1:15)
+
+🚧 The Problem
+Right now, international lead generation is mostly guesswork.
+
+Companies buy bloated lead lists or mass-send emails hoping someone bites.
+
+Campaigns fail due to tone mismatch, timing errors, or weak targeting — and no one knows why.
+
+Worse, even if something works, teams don’t know how to repeat that success elsewhere.
+
+Businesses need a smarter, scalable, prescriptive way to generate leads and optimize campaigns across cultures and regions.
+
+(Timer: ~1:15–2:00)
+
+💡 The Solution: Quotable
+Quotable is an AI-powered outbound marketing system that automates and improves every stage of the funnel:
+
+Scrapes leads from Google Maps and LinkedIn using open data and Crawl4AI
+
+Evaluates them using AI agents with RAG to confirm industry and decision-making power
+
+Generates tailored emails based on role, geography, and cultural tone
+
+Tracks campaign performance — opens, clicks, responses
+
+Diagnoses why campaigns succeed or fail, and
+
+Prescribes improved campaigns using benchmarked patterns
+
+It’s not just smart outreach — it’s self-improving outreach.
+
+(Timer: ~2:00–2:45)
+
+🧠 Why AI Makes This Possible
+At the core are AI agents powered by GPT-4 and LangChain:
+
+A Lead Evaluator Agent filters out non-decision-makers
+
+A Campaign Optimizer Agent generates culturally adaptive emails
+
+A Prescriptive Engine learns from past campaigns to recommend new content, timing, and segmentation strategies
+
+And everything is grounded in Retrieval-Augmented Generation (RAG), so the AI is always citing real data from scraped profiles and uploaded campaign reports.
+
+(Timer: ~2:45–3:30)
+
+📊 Real-World Use Case
+Let’s say you want to target insurance executives in Singapore.
+
+Quotable scrapes leads from Google Maps and LinkedIn.
+
+Filters for verified decision-makers in the insurance vertical.
+
+Automatically generates an outreach email — formal tone, risk-reduction value prop, and CTA that aligns with cultural preferences.
+
+Tracks opens, clicks, replies — and if performance dips?
+
+The AI explains why and prescribes a better version for the next round.
+
+No more shooting in the dark. Just smarter funnels.
+
+(Timer: ~3:30–4:30)
+
+🧱 What We Built for the MVP
+In this MVP, we’ve implemented:
+
+Lead scraping via MCP and Puppeteer
+
+Lead evaluation using AI + RAG
+
+Email generation with GPT-4
+
+A live campaign sent via Gmail SMTP (for demo)
+
+Campaign performance analytics (mock data)
+
+And a closed-loop prescriptive engine that improves future campaigns based on prior results
+
+We’ll demo a full cycle: scrape → evaluate → email → measure → optimize — all in minutes.
+
+(Timer: ~4:30–5:00)
+
+🌍 Why This Matters
+Global expansion shouldn't mean global guessing.
+
+Quotable enables businesses to target smarter, message better, and convert faster in any market — all with minimal guesswork and maximal AI guidance.
+
+New markets. Smarter funnels. More quotes.
+Let’s make outreach intelligent. Thank you.

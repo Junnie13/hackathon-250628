@@ -1,0 +1,68 @@
+🎨 Brand Identity: Quotable
+🧭 Brand Personality
+Voice: Smart, confident, globally aware
+
+Vibe: Strategic, actionable, sleek
+
+Target Users: Marketers, sales leaders, global expansion teams
+
+🌈 Color Palette (Blue-Focused)
+Purpose	Color	Hex	Usage
+Primary	Deep Tech Blue	#2F4FE0	Buttons, headers, icons
+Accent 1	Sky Blue	#63B3ED	Highlights, callouts
+Accent 2	Slate Gray	#475569	Text, charts, overlays
+Success	Lime Green	#3AB795	Conversion spikes, performance badges
+Error/Alert	Coral Red	#F56565	Campaign drop alerts
+Background	Soft Light	#F8FAFC	App background / dashboard canvas
+
+Typography pairing:
+
+Headers: Poppins (modern, bold, clean)
+
+Body: Inter or Open Sans (legible, professional)
+
+🧠 Core Features → Visual Metaphors
+Feature	Icon/Visual Style	Description
+Lead Generation	🔍 Funnel with sparkles	AI-enhanced targeting for smarter outreach
+Campaign Performance	📊 Trend line with arrow	Dynamic dashboards and actionable insights
+Cross-Cultural Intelligence	🌐 Globe with speech bubbles	Adaptive tone and pitch by region
+Market Penetration Strategy	🚀 Pin on global map	Go-to-market simulator + entry prescription
+Competitor Analysis	🕵️ Bar chart + radar	Tracks rival messaging, spend, positioning
+
+📦 Logo Concept (Visual Direction)
+🔹 Logo Style: Modern Wordmark + Symbol
+Wordmark: All caps “QUOTABLE” in deep tech blue (#2F4FE0), bold sans-serif (Poppins)
+
+Symbol:
+
+Quote bubble + funnel combined → signifies conversations leading to action
+
+OR: upward arrow nested inside a speech mark → implies growth through messaging
+
+Variation: Mini “Q” logo mark that doubles as an app icon
+
+Would you like me to generate this logo visually?
+
+🪄 Microcopy Examples (for UI)
+Section	Microcopy
+Empty State	“No quotes yet — let's explore your next market.”
+Campaign Scorecard	“This message resonates 2x better in Brazil.”
+Prescriptive CTA	“Shift tone to data-driven for German leads.”
+Onboarding	“Welcome to Quotable — your AI strategist for global growth.”
+
+📣 Suggested Product Tagline Usage
+Hero Section:
+New Markets.
+Smarter Funnels.
+More Quotes.
+(stacked like an ad punchline, with subtle animation for each line)
+
+Subline:
+“Quotable helps you uncover high-converting leads, optimize global messaging, and expand with precision.”
+
+🧱 Brand Summary
+Trait	Expression
+Core Color	#2F4FE0 (trust, technology, intelligence)
+Voice	Strategic. Insightful. Direct.
+Value Prop	Prescriptive sales + marketing intelligence for international growth
+Visual Energy	Clean lines, map contours, globe gradients, upward motion

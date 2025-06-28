@@ -1,0 +1,226 @@
+Product Requirements Document (PRD)
+
+Project Name: Quotable
+
+Tagline: New Markets. Smarter Funnels. More Quotes.
+
+1. Overview
+
+Quotable is an AI-powered MVP designed to revolutionize international lead generation and marketing campaign optimization. Instead of relying on purchased lead lists and manual A/B campaigns, Quotable scrapes and qualifies high-value leads, automates targeted outreach, and continuously improves campaign performance through prescriptive analytics.
+
+The goal is to offer a systematic and iterative workflow that leverages AI to:
+
+Scrape and evaluate leads from public sources
+
+Launch AI-personalized email campaigns
+
+Track and analyze performance
+
+Diagnose failures and predict campaign ROI
+
+Optimize content based on cultural and behavioral insights
+
+This MVP focuses on outbound email campaigns in the insurance vertical, targeting decision-makers internationally.
+
+2. Core Features (MVP Scope)
+
+1. Lead Scraping (Automated Collection)
+
+Scrape leads from:
+
+Google Maps (via MCP protocol or Puppeteer headless browser)
+
+LinkedIn (Crawl4AI for scalable phase 2)
+
+Extract key attributes:
+
+Name, title, company, location, email (if exposed), and LinkedIn URL
+
+Validate against insurance vertical keywords
+
+2. Lead Evaluation (Filtering & Enrichment)
+
+Use RAG (Retrieval-Augmented Generation) to:
+
+Analyze uploaded lead source docs or scraped profiles
+
+Identify if the lead is a decision-maker
+
+Confirm if the company operates in insurance or adjacent verticals
+
+3. Campaign Automation (Outbound Email)
+
+GPT-generated email templates
+
+Personalize by lead role, country, and culture (via system prompt)
+
+Add dynamic sections based on prior performance metrics
+
+Send emails via SMTP integration (for demo, Gmail SMTP + your email)
+
+Track:
+
+Open rate, click-through, response
+
+Traffic from links (if available)
+
+4. Campaign Performance Analysis (Descriptive)
+
+Use mock or actual campaign data to:
+
+Show performance per campaign, per persona, and per market
+
+Visualize email funnel drop-offs
+
+Aggregate click/open rates by country
+
+5. Root Cause Analysis (Diagnostic)
+
+Analyze what led to poor campaign results:
+
+Language tone mismatch (use sentiment analysis)
+
+Timing / send window failures
+
+Missing personalization or cultural context
+
+6. Predictive Benchmarking (Predictive)
+
+Estimate future open/click/conversion rates using prior campaign data
+
+Set industry and geography benchmarks using:
+
+External datasets (e.g. Mailchimp public reports)
+
+Your demo results as baseline
+
+7. Prescriptive Optimization (Prescriptive)
+
+Generate improved campaigns emails to send to future leads using:
+
+AI system prompts tuned by geography/culture
+
+Past campaign performance (top 20% open rate patterns)
+
+Output: Campaign template suggestions, send time windows, CTAs
+
+3. MVP Workflow Process Flow
+
+graph TD
+A[Scrape Leads] --> B[Filter & Enrich Leads (RAG)]
+B --> C[Generate Personalized Emails (AI)]
+C --> D[Send Campaign via Email]
+D --> E[Track Performance (Opens, Clicks, Replies)]
+E --> F[Diagnose Performance Issues]
+F --> G[Predict Future Campaign Outcomes]
+G --> H[Prescribe Next Best Campaign Strategy]
+H --> C
+
+4. Tools & Frameworks
+
+Area
+
+Tools
+
+Frontend
+
+React
+
+Backend
+
+Supabase
+
+Scraping
+
+Crawl4AI
+
+AI & NLP
+
+OpenAI (API), Claude (backup), LangChain agents
+
+RAG
+
+Supabase pgvector or Pinecone + LangChain
+
+Email
+
+Gmail SMTP, Mailgun (phase 2), Sendgrid (optional)
+
+Analytics
+
+Pandas, Plotly, OpenAI function calling, mock DB
+
+Persona Data
+
+CultureAtlas, Hofstede Insights, public sales reports
+
+5. System Prompts for AI Agents
+
+Prompt: Lead Qualification Agent
+
+You are an AI lead evaluator. Given a person’s job title, company, and context, assess whether they are a decision-maker in the insurance industry. Return:
+- Role level: Decision-maker / Influencer / Not relevant
+- Industry match: Insurance / Adjacent / Not relevant
+- Confidence score (0-1)
+
+Prompt: Campaign Optimizer Agent
+
+You are an AI campaign strategist. Given prior campaign results, location, and cultural tone preferences, generate an optimized email with:
+- Custom greeting & CTA
+- Tone (formal/informal)
+- Structure based on top-performing layout
+- Dynamic section if prior campaign was ignored
+
+6. AI Guardrails (MVP)
+
+Ensure no hallucinated emails, roles, or companies (validate input)
+
+Limit automation: every email generated is reviewed by a marketer before sending (until accuracy is stable)
+
+Do not suggest regions without scraping coverage
+
+Cultural tone adjustments must use pre-approved templates or structures
+
+Benchmarks should come from real or published data only (no fabricated insights)
+
+7. Milestones
+
+Milestone
+
+Deliverable
+
+ETA
+
+✅ Week 1
+
+UI wireframe + branding + basic scraping
+
+Day 2-3
+
+✅ Week 2
+
+Lead filtering (RAG), campaign gen, email send loop
+
+Day 4-5
+
+🔜 Week 3
+
+Campaign analytics + dashboard + performance insights
+
+Day 6
+
+🔜 Week 4
+
+Prescriptive engine + pitch deck + demo setup
+
+Day 7
+
+8. Notes for Demo Setup
+
+Use your email for live campaign demo (Gmail SMTP)
+
+Use 5–10 scraped leads manually (to simplify)
+
+Preload mock performance stats for visualizations
+
+Show full cycle: scrape → evaluate → email → metrics → improved campaign
